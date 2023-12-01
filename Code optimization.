@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+  int a, b, c, d, e, f, g, h, i, j, k;
+  
+  a = 5;
+  b = 10;
+  c = a * b;
+  d = a * b;
+  e = c + 10;
+  f = d + 10;
+  g = e * f;
+  h = e * f;
+  i = c + d;
+  j = e + f;
+  k = g + h;
+
+  printf("a: %d\n", a);
+  printf("b: %d\n", b);
+  printf("c: %d\n", c);
+  printf("d: %d\n", d);
+  printf("e: %d\n", e);
+  printf("f: %d\n", f);
+  printf("g: %d\n", g);
+  printf("h: %d\n", h);
+  printf("i: %d\n", i);
+  printf("j: %d\n", j);
+  printf("k: %d\n", k);
+
+  return 0;
+}
+  
